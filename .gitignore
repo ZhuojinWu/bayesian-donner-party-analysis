@@ -1,0 +1,12 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*_files/
+
+# Local reference and course materials
+Grayson-DonnerPartyDeaths-1990.pdf
+STAT3303.pdf
+
+# Superseded draft
+Stat_3303_Project.pdf
