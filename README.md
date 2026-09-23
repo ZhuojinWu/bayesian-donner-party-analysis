@@ -1,6 +1,6 @@
-# Bayesian Analysis of Donner Party Survival
+# Bayesian Survival Analysis: A Donner Party Case Study
 
-This project examines how age and gender were associated with survival among members of the Donner Party. It was completed as a final project for STAT 3303.
+This portfolio project examines how age and gender were associated with survival among members of the Donner Party. It demonstrates an end-to-end Bayesian modeling workflow, from exploratory analysis and prior specification through custom MCMC implementation, convergence diagnostics, and posterior predictive validation.
 
 ## Overview
 
@@ -16,8 +16,8 @@ Across all three specifications, the posterior estimates suggest that survival p
 
 ## Repository contents
 
-- `Stat_3303_Project.qmd` - Quarto source, analysis, and R code
-- `Stat_3303_Project_polish.pdf` - rendered final report
+- `bayesian_donner_survival.qmd` - Quarto source, analysis, and R code
+- `bayesian_donner_survival_report.pdf` - rendered final report
 
 ## Requirements
 
@@ -38,12 +38,12 @@ install.packages(c(
 Then run:
 
 ```bash
-quarto render Stat_3303_Project.qmd
+quarto render bayesian_donner_survival.qmd
 ```
 
 ## Data and references
 
-The analysis uses the `donner` dataset distributed with the `LearnBayes` R package. Background literature and course materials used during development are not redistributed in this repository.
+The analysis uses the `donner` dataset distributed with the `LearnBayes` R package. Supporting literature and reference materials used during development are not redistributed in this repository.
 
 ## Author
 

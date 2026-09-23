@@ -1,6 +1,7 @@
 ---
-title: "STAT 3303 Final Project"
+title: "Bayesian Survival Analysis: A Donner Party Case Study"
 author: "Jayking Wu"
+output-file: bayesian_donner_survival_report.pdf
 format:
   pdf:
     documentclass: article
